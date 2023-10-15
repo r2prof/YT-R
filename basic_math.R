@@ -1,52 +1,62 @@
 # Basic math operations in R
-# Addition----
 
+
+# Addition----
 x <- 6
 y <- 3
-result <- x + y
 
-
-# Subtraction----
-
-result <- x - y
-
-
-# Multiplication
-
-result <- x * y
-
-
-# Division----
-
-result <- x / y
+result <- x+y
+result
 print(result)
 
+# Subtraction----
+result <- x-y
+result
+print(result)
+
+# Multiplication
+multiplication <- x*y
+print(multiplication)
+
+# Division----
+x/y
+
 # Exponentiation----
-
-result <- x^y
-
-
+x^y
+check <- 6*6*6
+check
 
 # Square Root----
 x <- 16
-result <- sqrt(x)
-
+sqrt(16)
+sqrt(x)
 
 # Absolute Value----
 x <- -10
-result <- abs(x)
-
+y <- abs(x)
+print(y)
 
 # Modulus (Remainder)----
 x <- 17
 y <- 5
-result <- x %% y  # %% operator for integer division
+x/y
 
+remainder <- x%%y
+remainder
 
 # Floor and Ceiling----
 x <- 3.8
-floor_result <- floor(x) 		# Round down to the nearest integer
-floor_result
-ceiling_result <- ceiling(x) 	# Round up to the nearest integer
-ceiling_result
+floor(x) # Round down to the nearest integer
+
+ceiling(x)  # Round up to the nearest integer
+
+
+
+
+
+
+
+
+
+
 
