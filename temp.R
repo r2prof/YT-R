@@ -1,2 +1,5 @@
+x = 2
+y <- 4
 
-print("Hello World")
+x
+print(x)

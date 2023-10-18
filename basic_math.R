@@ -1,61 +1,15 @@
-# Basic math operations in R
+# How to perform basic math operations in R
 
-# Addition----
-x <- 6
-y <- 3
+# How to calculate the BMI
 
-z <- x+y
+# Formula: weight (kg)/height(m) x height(m)
 
-z
+# Example: Weight 63 kg; Height 165 cm
 
-print(z)
+weight <- 63
 
-# Subtraction----
-x-y
+height <- 1.65
 
-# Multiplication
-x*y
+BMI <- weight/(height)^2
 
-# Division----
-x/y
-
-# Exponentiation----
-x^y
-6^3
-6*6*6
-
-# Square Root----
-x <- 16
-sqrt(x)
-
-sqrt(16)
-
-# Absolute Value----
-x <- -10
-abs(x)
-
-# Modulus (Remainder)----
-x <- 17
-y <- 5
-
-x/y
-
-x%%y
-
-# Floor and Ceiling----
-x <- 3.8
-
-floor(x) # Round down to the nearest integer
-
-ceiling(x) # Round up to the nearest integer
-
-
-
-
-
-
-
-
-
-
-
+print(BMI)
