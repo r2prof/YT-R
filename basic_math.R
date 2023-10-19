@@ -7,9 +7,11 @@
 # Example: Weight 63 kg; Height 165 cm
 
 weight <- 63
-
 height <- 1.65
 
-BMI <- weight/(height)^2
+BMI <- weight/(height * height)
+
+BMI
 
 print(BMI)
+
