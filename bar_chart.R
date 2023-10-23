@@ -1,4 +1,7 @@
 # Bar Chart
+#--
+
+
 
 # A bar chart draws a bar with a a height proportional to the count 
 # in the table.
