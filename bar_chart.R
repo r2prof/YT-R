@@ -1,11 +1,5 @@
 # Bar Chart
 #--
-
-
-
-# test 
-print("test")
-
 # A bar chart draws a bar with a a height proportional to the count 
 # in the table.
 
@@ -17,6 +11,7 @@ print("test")
 wc <- c(3, 3, 1, 3, 1, 3, 3, 2, 3, 3, 3, 2, 1, 2, 3, 2, 3, 2, 2, 
  2, 3, 3, 2, 3, 3, 2, 1, 2, 3, 2)
 
+
 length(wc)
 
 table(wc)
@@ -24,3 +19,4 @@ table(wc)
 barplot(wc)
 
 barplot(table(wc))
+
