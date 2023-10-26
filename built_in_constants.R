@@ -1,15 +1,15 @@
-# How to access built-in constants in R
+# How to access built-in constants in R----
 
-# Capital Letters in R
+# Capital Letters in R----
+x <- LETTERS
 
-LETTERS
-# Small Letters in R
+# Small Letters in R----
 letters
 
-# Months Information in R
+# Months information in R----
 month.name
 
-# Month Abbreviations in R
+# Months Abbreviations in R----
 month.abb
 
 # pi value in R
