@@ -1,33 +1,50 @@
-install.packages("DescTools")
+# How to calculate the mode of data set----
+# Sample data
+x <- c(15, 18, 21, 27, 12, 21, 30, 33, 27, 36, 39,  
+       45, 48, 12, 54, 57, 63, 66, 69, 42)
 
-# https://r-lang.com/mode-in-r/
+mode(x)
+
+table(x)
+
+# Install Tools for Descriptive Statistics package
+install.packages("DescTools")
 
 # Load the DescTools package
 library(DescTools)
 ?DescTools
 
-# normal mode
-Mode(c(0:5, 5))
-
-Mode(5)
-
-
-# Sample data
-data <- c(3,3, 5, 2, 2, 5, 6, 3, 2, 2,2, 3, 4)
-
 # Calculate the mode
-Mode(data)
-
-# Print the result
-print(paste("The mode of the dataset is:", mode_result))
+Mode(x)
 
 
 
-Mode(data)
 
-df <- data.frame(
-    col1 = c(1, 2, 3, 2),
-    col2 = c(4, 5, 6, 6),
-    col3 = c("a", "b", "k", "b")
-)
-Mode(df$col1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
