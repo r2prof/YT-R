@@ -14,7 +14,7 @@ View(cars)
 str(cars)
 
 # Create a scatter plot of speed vs. distance
-plot(cars$speed, cars$dist, 
+plot(speed, dist, 
      main = "Scatter Plot of Speed vs. Distance",
      xlab = "Speed",
      ylab = "Distance",
