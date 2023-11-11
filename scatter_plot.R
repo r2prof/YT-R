@@ -13,17 +13,11 @@ View(cars)
 
 str(cars)
 
-attach(cars)
-
-# Create a scatter plot of mpg (miles per gallon) vs. wt (weight)
-plot()
-plot(speed, dist, 
+# Create a scatter plot of speed vs. distance
+plot(cars$speed, cars$dist, 
      main = "Scatter Plot of Speed vs. Distance",
      xlab = "Speed",
      ylab = "Distance",
      pch = 19,  # Set point character to a solid circle
-     col = "red"  # Set point color to blue
+     col = "red"  # Set point color to red
 )
-
-rm(list = ls())
-cat('\f') 
