@@ -1,14 +1,12 @@
 # How to create a matrix in R?-----
 
 # How to create a matrix from vector?
-x <- 1:5
-x
+(x <- 1:5)
 
-y <- 6:10
-y
+(y <- 6:10)
 
-z <- 11:15
-z
+(z <- 11:15)
+
 # create a matrix where x, y and z are columns
 cbind(x, y, z)
 
@@ -16,17 +14,17 @@ cbind(x, y, z)
 rbind(x, y, z)
 
 # create a matrix using matrix function
-mat <- matrix(c(1, 2, 3, 4), ncol = 2, byrow = TRUE)
+A <- matrix(c(1, 2, 3, 4), ncol = 2, byrow = TRUE)
 
-mat
+A
 
-mat <- matrix(c(1, 2, 3, 4), ncol = 2, byrow = FALSE)
+B <- matrix(c(1, 2, 3, 4), ncol = 2, byrow = FALSE)
 
-mat
+B
 
 # how to give names to rows and columns to a matrix
-rownames(mat) <- c("R1", "R2")
-colnames(mat) <- c("C1", "C2")
+rownames(A) <- c("R1", "R2")
 
-mat
+colnames(A) <- c("C1", "C2")
 
+A
