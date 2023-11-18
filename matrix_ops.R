@@ -1,8 +1,11 @@
-# How to perform matrix operations in R?-----
+# How to perform  basic matrix operations in R?-----
 
 A <- matrix(c(10, 8, 5, 12), ncol = 2, byrow = TRUE)
+
 A
+
 B <- matrix(c(5, 3, 15, 6), ncol = 2, byrow = TRUE)
+
 B
 
 # dimensions of a matrix
@@ -31,7 +34,6 @@ dim(A)
 
 dim(B)
 
-
 A %*% B
 
 # determinant of a matrix in R
@@ -47,6 +49,3 @@ A_inv
 # output is correct as follows:
 
 A %*% A_inv
-
-
-
