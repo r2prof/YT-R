@@ -1,4 +1,4 @@
-# Hwo to create of sequence of numbers in R?----
+# How to create of sequence of numbers in R?----
 
 # Create a sequence from 1 to 10
 seq_one_ten <- 1:10
@@ -30,3 +30,4 @@ print(seq_zero_to_one)
 dec_seq <- seq(from = 10, to = 1, by = -1)
 
 print(dec_seq)
+
