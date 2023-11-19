@@ -1,4 +1,5 @@
 # How to save output to R?------
+
 # Generate some sample data
 data <- data.frame(
     Name = c("Ali", "Ahmad", "Musa"),
