@@ -1,0 +1,87 @@
+---
+title: "Descriptive Statistics"
+author: "Raza Rafique"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    theme: yeti
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Description
+
+Heavenly Chocolates manufactures and sells quality chocolate products at its plant and retail store located in Saratoga Springs, New York. Two years ago, the company developed a web site and began selling its products over the Internet. Web site sales have exceeded the company’s expectations, and management is now considering strategies to increase sales even further. To learn more about the web site customers, a sample of 50 Heavenly Chocolates 
+transactions was selected from the previous month’s sales. Data showing the day of the week each transaction was made, the type of browser the customer used, the time spent on the web site, the number of web pages viewed, and the amount spent by each of the 50 customers are contained in the file heavenlychocolates.csv.
+\
+\
+Heavenly Chocolates would like to use the sample data to determine whether 
+online shoppers who spend more time and view more pages also spend more money 
+during their visit to the web site. The company would also like to investigate the effect that the day of the week and the type of browser have on sales. 
+\
+
+## Managerial Report
+Use the methods of descriptive statistics to learn about the customers who 
+visit the Heavenly Chocolates web site. Include the following in your report.
+\
+
+#. Graphical and numerical summaries for the length of time the shopper spends on the web site, the number of pages viewed, and the mean amount spent per 
+transaction. Discuss what you learn about Heavenly Chocolates’ online shoppers from these numerical summaries.
+\
+**Answer:** 
+\
+#. Summarize the frequency, the total dollars spent, and the mean amount spent per transaction for each day of week. Discuss the observations you can make 
+about Heavenly Chocolates’ business based on the day of the week?
+\
+**Answer:** 
+\
+#. 	Summarize the frequency, the total dollars spent, and the mean amount 
+spent per transaction for each type of browser. Discuss the observations you 
+can make about Heavenly Chocolates’ business based on the type of browser?
+\
+**Answer:** 
+\
+#.	Develop a scatter chart, and compute the sample correlation coefficient 
+to explore the relationship between the time spent on the web site and the 
+dollar amount spent. Use the horizontal axis for the time spent on the web 
+site. Discuss your findings.
+\
+**Answer:** 
+\
+#.	Develop a scatter chart, and compute the sample correlation coefficient 
+to explore the relationship between the number of web pages viewed and the 
+amount spent. Use the horizontal axis for the number of web pages viewed. 
+Discuss your findings.
+\
+**Answer:** 
+\
+#. 	Develop a scatter chart, and compute the sample correlation coefficient 
+to explore the relationship between the time spent on the web site and the 
+number of pages viewed. Use the horizontal axis to represent the number of 
+pages viewed. Discuss your findings.
+\
+**Answer:** 
+
+
+```{r cars}
+summary(cars)
+library(readr)
+# data <- read_csv("heavenlychocolates.csv")
+# head(data)
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=TRUE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent 
+printing of the R code that generated the plot.
