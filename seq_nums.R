@@ -1,4 +1,4 @@
-# How to create of sequence of numbers in R?----
+# How to create a sequence of numbers in R?----
 
 # Create a sequence from 1 to 10
 seq_one_ten <- 1:10
@@ -12,7 +12,7 @@ print(even_numbers)
 
 # Create a sequence of odd numbers from 1 to 15
 
-odd_numbers <- seq(from = 1, to = 15, by = 2)
+odd_numbers <- seq(1, 15, 2)
 
 print(odd_numbers)
 
