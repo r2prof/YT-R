@@ -1,4 +1,4 @@
-# How to save output to R?------
+# How to save output to csv file in R?------
 
 # Create a vector
 rain_mm <- 1:25
