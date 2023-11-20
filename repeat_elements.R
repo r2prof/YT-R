@@ -2,10 +2,10 @@
 
 rep(x, times)
 
-# Repeat a Single Value
-
 # Repeat the value 3, five times
 result <- rep(3, times = 5)
+
+rep(4, 5)
 
 print(result)
 
@@ -17,7 +17,8 @@ print(result)
 
 
 # Repeat each element of the vector different number of times
-result <- rep(c("apple", "orange", "banana"), times = c(2, 3, 1))
+result <- rep(c("apple", "orange", "banana"), 
+              times = c(2, 3, 1))
 
 print(result)
 
