@@ -1,5 +1,14 @@
 # How to save output to R?------
 
+# Create a vector
+rain_mm <- 1:25
+
+print(rain_mm)
+
+# Save the data to a CSV file
+write.csv(data, "rain.csv", row.names = FALSE)
+
+
 # Generate some sample data
 data <- data.frame(
     Name = c("Ali", "Ahmad", "Musa"),
