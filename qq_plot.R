@@ -12,7 +12,7 @@ qqline(data, col = 2)
 set.seed(123)
 data <- rnorm(100)
 
-# Create a QQ plot with customizations
+# Create a QQ plot with customization
 qqnorm(data, main = "QQ Plot", xlab = "Theoretical Quantiles", ylab = "Sample Quantiles", col = "blue", pch = 20)
 
 # Add a reference line
