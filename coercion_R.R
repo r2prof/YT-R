@@ -1,32 +1,28 @@
-# Example: Using as.numeric() for coercion
-original_value <- "123"
+# How to use coercion in R?-------
 
-numeric_value <- as.numeric(original_value)
+# Example: Using as.numeric() for coercion
+x <- "123"
 
 # Output
-print(paste("Original Value:", original_value))
+class(x)
 
-print(paste("Coerced to Numeric:", numeric_value))
+numeric_value <- as.numeric(x)
+
+class(x)
 
 # Example: Implicit coercion
-num_value <- 5
+y <- 5
 
-char_value <- "2"
+z <- "2"
 
 # Output
-result <- num_value + char_value
-
-print(paste("Result of Operation:", result))
+result <- y + z
 
 # Example: Handling coercion issues
-mixed_value <- c(1, "two", 3)
-
-# Check types before coercion
-for (val in mixed_value) {
-    print(paste("Type of", val, ":", class(val)))
-}
+a <- c(1, "two", 3)
 
 # Coerce to numeric, ignoring non-numeric elements
-numeric_values <- as.numeric(mixed_value)
+b <- as.numeric(a)
 
-print(paste("Coerced to Numeric:", numeric_values))
+print(b)
+
