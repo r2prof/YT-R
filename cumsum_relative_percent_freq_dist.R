@@ -1,9 +1,6 @@
-# How to: 
-#  . Create frequency table
+# How to create a frequency table
 
-#  . Frequedistribution for qualitative 
-# data in R----
-
+#  Frequency distribution for qualitative data in R----
 
 # Create Data
 data <-c ('G','E','E','T','A', 'N','S','H','S','A','H','N','I')
